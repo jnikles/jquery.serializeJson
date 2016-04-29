@@ -23,10 +23,7 @@ $.fn.serializeJson = function() {
         break;
       case 'date':
         date = new Date($input.val());
-        momentDate = moment($input.val());
-        if (momentDate.isValid()) {
-          result[name] = date;
-        }
+        result[name] = date;
         break;
       case 'checkbox':
         result[name] = $input.is(":checked");
