@@ -1,8 +1,10 @@
 
 /**
  * jQuery plugin to serialize all inputs decending from an
- * element as JSON
- * @author Jan-Christian Nikles
+ *
+ * @author Jan-Christian Nikles (j_nikles@web.de)
+ * @since 2016-05-12
+ *
  */
 $.fn.serializeJson = function () {
   var inputs, select, textAreas, result, date, $input, name;
