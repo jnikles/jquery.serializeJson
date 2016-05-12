@@ -4,8 +4,8 @@
  * element as JSON
  * @author Jan-Christian Nikles
  */
-$.fn.serializeJson = function() {
-  var inputs, select, textAreas, result, date, momentDate, $input, name;
+$.fn.serializeJson = function () {
+  var inputs, select, textAreas, result, date, $input, name;
 
   inputs = this.find("input");
   selects = this.find("select");
