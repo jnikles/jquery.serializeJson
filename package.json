@@ -1,0 +1,25 @@
+{
+  "name": "jquery.serializejson",
+  "version": "0.0.1",
+  "description": "jQuery plugin to help serialize form data into JSON format",
+  "main": "jquery.serializeJson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnikles/jquery.serializeJson.git"
+  },
+  "keywords": [
+    "serialize",
+    "json",
+    "jquery",
+    "form"
+  ],
+  "author": "Jan-Christian Nikles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnikles/jquery.serializeJson/issues"
+  },
+  "homepage": "https://github.com/jnikles/jquery.serializeJson#readme"
+}
